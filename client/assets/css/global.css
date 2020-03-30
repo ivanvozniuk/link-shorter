@@ -1,0 +1,14 @@
+html {
+	min-height: 100vh;
+	overflow-y: scroll;
+}
+body,
+* {
+	font-family: 'SF Pro Display' !important;
+}
+* {
+	box-sizing: border-box;
+}
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
