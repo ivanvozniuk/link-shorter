@@ -7,7 +7,6 @@ module.exports = async (req, res, next) => {
 	try {
 		const { login = null, email = null, password = null } = req.body;
 		const loginType = login !== null ? 'login' : email !== null ? 'email' : null;
-		console.log(req.body, email, loginType, login);
 
 		let user;
 

@@ -1,0 +1,27 @@
+html {
+	overflow-y: scroll;
+}
+html,
+body,
+#root {
+	min-height: 100vh;
+}
+#root {
+	display: flex;
+	flex-direction: column;
+}
+body,
+* {
+	font-family: 'SF Pro Display' !important;
+	letter-spacing: 0.01em;
+}
+* {
+	box-sizing: border-box;
+}
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.MuiFormHelperText-root {
+	position: absolute !important;
+	bottom: -23px;
+}
